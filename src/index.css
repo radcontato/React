@@ -4,6 +4,9 @@ body {
     background-color: #444;
     color: #fff;
     text-align: center;
+    background: #16222A;
+    background: -webkit-linear-gradient(to right, #3A6073, #16222A);
+    background: linear-gradient(to right, #3A6073, #16222A);
 }
 
 h1, h2 {

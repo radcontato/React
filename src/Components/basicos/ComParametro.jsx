@@ -1,7 +1,11 @@
 import React from 'react'
 
-export default param =>
-    <>
-        <h3>{param.titulo}</h3>
-        <p>{param.subtitulo}</p>
-    </>
+export default (props) => {
+    // props e somente leitura!!!!!
+    return (
+        <>
+            <h3>{props.titulo}</h3>
+            <p>{props.subtitulo}</p>
+        </>
+    );
+};
